@@ -1,4 +1,4 @@
-package org.sxymi.androidbasics;
+package org.sxymi.androidbasics.activities;
 
 import android.os.Bundle;
 
