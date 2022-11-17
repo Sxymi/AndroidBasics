@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidBasics</string>
+
+    <!-- Start -->
+    <string name="button_start_list">Activity list</string>
+    <string name="button_start_about">About</string>
+    <string name="button_start_exit">Exit</string>
+</resources>
