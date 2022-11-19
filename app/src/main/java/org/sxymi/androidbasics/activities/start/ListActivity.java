@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import org.sxymi.androidbasics.R;
 import org.sxymi.androidbasics.activities.BaseActivity;
+import org.sxymi.androidbasics.activities.list.FragmentsActivity;
+import org.sxymi.androidbasics.activities.list.IntentsActivity;
 import org.sxymi.androidbasics.activities.list.NotificationsActivity;
 import org.sxymi.androidbasics.activities.list.WidgetsActivity;
 import org.sxymi.androidbasics.classes.Functions;
@@ -29,6 +31,8 @@ public class ListActivity extends BaseActivity {
     private void initializeItems() {
         this.addItem(R.string.label_activity_notifications, NotificationsActivity.class);
         this.addItem(R.string.label_activity_widgets, WidgetsActivity.class);
+        this.addItem(R.string.label_activity_fragments, FragmentsActivity.class);
+        this.addItem(R.string.label_activity_intents, IntentsActivity.class);
     }
 
     private void initializeAdapter() {

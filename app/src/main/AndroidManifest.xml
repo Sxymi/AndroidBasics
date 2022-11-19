@@ -45,7 +45,9 @@
         </activity>
         <activity
             android:name=".activities.list.NotificationsActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/label_activity_notifications"
+            android:parentActivityName=".activities.start.ListActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -54,6 +56,33 @@
             android:name=".activities.list.WidgetsActivity"
             android:exported="false"
             android:label="@string/label_activity_widgets"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.FragmentsActivity"
+            android:exported="false"
+            android:label="@string/label_activity_fragments"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.IntentsActivity"
+            android:exported="false"
+            android:label="@string/label_activity_intents"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.deep.IntentsSecondActivity"
+            android:exported="false"
+            android:label="@string/label_activity_intents"
             android:parentActivityName=".activities.start.ListActivity">
             <meta-data
                 android:name="android.app.lib_name"

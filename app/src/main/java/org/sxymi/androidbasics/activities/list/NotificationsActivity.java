@@ -44,7 +44,7 @@ public class NotificationsActivity extends BaseActivity {
     @Override
     protected void handleControls() {
         this.buttonToast.setOnClickListener(view -> {
-            Functions.sendToast(this, this.getResources().getString(R.string.notifications_example_toast_content));
+            Functions.sendToast(this, R.string.notifications_example_toast_content);
         });
 
         this.buttonNotification.setOnClickListener(view -> {

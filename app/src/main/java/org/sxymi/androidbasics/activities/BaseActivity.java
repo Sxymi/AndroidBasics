@@ -11,6 +11,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         this.setContentView(this.getLayout());
         this.initializeControls();
         this.handleControls();
+
+        Bundle bundle = this.getIntent().getExtras();
+        if (bundle != null && !bundle.isEmpty()) {
+            this.readBundle(bundle);
+        }
     }
 
     protected abstract int getLayout();
@@ -18,4 +23,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected abstract void initializeControls();
 
     protected abstract void handleControls();
+
+    protected void readBundle(Bundle bundle) {
+    }
 }
