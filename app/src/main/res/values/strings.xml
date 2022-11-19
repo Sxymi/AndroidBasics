@@ -4,15 +4,34 @@
     <!-- Activities -->
     <string name="label_activity_list">Activity list</string>
     <string name="label_activity_about">About</string>
+    <string name="label_activity_notifications">Notifications</string>
+    <string name="label_activity_widgets">Widgets</string>
 
     <!-- Start -->
-    <string name="button_start_list">Activity list</string>
-    <string name="button_start_about">About</string>
-    <string name="button_start_exit">Exit</string>
+    <string name="start_button_list">Activity list</string>
+    <string name="start_button_about">About</string>
+    <string name="start_button_exit">Exit</string>
 
     <!-- About -->
-    <string name="text_about_description_label">Description</string>
-    <string name="text_about_description">Application that show basic functionalities of Android App</string>
-    <string name="text_about_author_label">Author</string>
-    <string name="text_about_author">Szymon Chorągwicki</string>
+    <string name="about_text_description_label">Description</string>
+    <string name="about_text_description_value">Application that show basic functionalities of Android App</string>
+    <string name="about_text_author_label">Author</string>
+    <string name="about_text_author_value">Szymon Chorągwicki</string>
+
+    <!-- Notifications -->
+    <string name="notifications_button_toast">Toast</string>
+    <string name="notifications_button_notification">Notification</string>
+    <string name="notifications_example_toast_content">Toast content</string>
+    <string name="notifications_example_notification_title">Notification title</string>
+    <string name="notifications_example_notification_content">Notification content</string>
+
+    <!-- Widgets -->
+    <string name="widgets_button_on">Enable progress</string>
+    <string name="widgets_button_off">Disable progress</string>
+    <string name="widgets_checkbox">Change TextView below</string>
+    <string name="widgets_textview_on">Selected</string>
+    <string name="widgets_textview_off">Not selected</string>
+    <string name="widgets_radio_first">First option</string>
+    <string name="widgets_radio_second">Second option</string>
+    <string name="widgets_edittext">Select radio above</string>
 </resources>

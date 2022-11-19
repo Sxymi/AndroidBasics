@@ -26,9 +26,9 @@ public class StartActivity extends BaseActivity {
 
     @Override
     protected void initializeControls() {
-        this.buttonList = this.findViewById(R.id.button_start_list);
-        this.buttonAbout = this.findViewById(R.id.button_start_about);
-        this.buttonExit = this.findViewById(R.id.button_start_exit);
+        this.buttonList = this.findViewById(R.id.start_button_list);
+        this.buttonAbout = this.findViewById(R.id.start_button_about);
+        this.buttonExit = this.findViewById(R.id.start_button_exit);
     }
 
     @Override

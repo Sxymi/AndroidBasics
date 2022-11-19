@@ -11,39 +11,39 @@
         android:layout_centerInParent="true">
 
         <TextView
-            android:id="@+id/text_about_description_label"
+            android:id="@+id/about_text_description_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:text="@string/text_about_description_label"
+            android:text="@string/about_text_description_label"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/text_about_description"
+            android:id="@+id/about_text_description_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_about_description_label"
+            android:layout_below="@id/about_text_description_label"
             android:layout_centerHorizontal="true"
-            android:text="@string/text_about_description" />
+            android:text="@string/about_text_description_value" />
 
         <TextView
-            android:id="@+id/text_about_author_label"
+            android:id="@+id/about_text_author_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_about_description"
+            android:layout_below="@id/about_text_description_value"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:text="@string/text_about_author_label"
+            android:text="@string/about_text_author_label"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/text_about_author"
+            android:id="@+id/about_text_author_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_about_author_label"
+            android:layout_below="@id/about_text_author_label"
             android:layout_centerHorizontal="true"
-            android:text="@string/text_about_author" />
+            android:text="@string/about_text_author_value" />
     </RelativeLayout>
 
 </RelativeLayout>
