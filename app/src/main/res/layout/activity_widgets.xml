@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/widgets_checkbox"
             android:layout_centerInParent="true"
-            android:text="@string/widgets_textview_off" />
+            android:text="@string/widgets_text_view_off" />
 
         <RadioGroup
             android:id="@+id/widgets_radio_group"

@@ -88,6 +88,33 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".activities.list.SQLiteActivity"
+            android:exported="false"
+            android:label="@string/label_activity_sqlite"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.deep.SQLiteItemActivity"
+            android:exported="false"
+            android:label="@string/label_activity_sqlite"
+            android:parentActivityName=".activities.list.SQLiteActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.FileActivity"
+            android:exported="false"
+            android:label="@string/label_activity_file"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>

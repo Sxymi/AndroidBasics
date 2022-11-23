@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.deep.SQLiteItemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <EditText
+            android:id="@+id/sqlite_item_edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="@string/sqlite_item_edit_text_name" />
+
+        <EditText
+            android:id="@+id/sqlite_item_edit_text_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sqlite_item_edit_text_name"
+            android:hint="@string/sqlite_item_edit_text_value"
+            android:inputType="number" />
+
+        <RelativeLayout
+            android:id="@+id/sqlite_item_layout_relative_insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sqlite_item_edit_text_value"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/sqlite_item_button_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sqlite_item_button_insert" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sqlite_item_layout_relative_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sqlite_item_edit_text_value"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/sqlite_item_button_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/sqlite_item_button_update" />
+
+            <Button
+                android:id="@+id/sqlite_item_button_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sqlite_item_button_edit"
+                android:text="@string/sqlite_item_button_delete" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

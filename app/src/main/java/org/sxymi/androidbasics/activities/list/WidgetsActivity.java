@@ -48,7 +48,7 @@ public class WidgetsActivity extends BaseActivity {
         });
 
         this.checkbox.setOnCheckedChangeListener((view, isChecked) -> {
-            this.textView.setText(isChecked ? R.string.widgets_textview_on : R.string.widgets_textview_off);
+            this.textView.setText(isChecked ? R.string.widgets_text_view_on : R.string.widgets_text_view_off);
         });
 
         this.radioGroup.setOnCheckedChangeListener((group, idChecked) -> {
