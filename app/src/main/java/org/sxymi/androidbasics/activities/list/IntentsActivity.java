@@ -10,7 +10,7 @@ import org.sxymi.androidbasics.activities.deep.IntentsSecondActivity;
 import org.sxymi.androidbasics.classes.Functions;
 
 public class IntentsActivity extends BaseActivity {
-    public static final String KEY = "argument";
+    public static final String KEY = "intents";
     private Button button;
     private EditText editText;
 

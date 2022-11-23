@@ -20,7 +20,7 @@ public class Functions {
 
         Intent intent = new Intent(context, target);
         if (bundle != null && !bundle.isEmpty()) {
-            intent.putExtra(BaseActivity.BUNDLE_KEY, bundle);
+            intent.putExtra(BaseActivity.BASE_KEY, bundle);
         }
 
         context.startActivity(intent);

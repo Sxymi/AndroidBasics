@@ -115,6 +115,28 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <!-- To use this activity define MAPS_API_KEY in local.properties -->
+        <!--
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+
+        <activity
+            android:name=".activities.list.MapsActivity"
+            android:exported="false"
+            android:label="@string/label_activity_maps" />
+       -->
+        <activity
+            android:name=".activities.list.PictureActivity"
+            android:exported="false"
+            android:label="@string/label_activity_picture"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>

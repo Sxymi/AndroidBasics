@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SQLiteActivity extends BaseActivity {
-    public static final String KEY = "argument";
+    public static final String KEY = "sqlite";
     private ListView list;
 
     @Override

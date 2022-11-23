@@ -11,6 +11,7 @@ import org.sxymi.androidbasics.activities.list.FileActivity;
 import org.sxymi.androidbasics.activities.list.FragmentsActivity;
 import org.sxymi.androidbasics.activities.list.IntentsActivity;
 import org.sxymi.androidbasics.activities.list.NotificationsActivity;
+import org.sxymi.androidbasics.activities.list.PictureActivity;
 import org.sxymi.androidbasics.activities.list.SQLiteActivity;
 import org.sxymi.androidbasics.activities.list.WidgetsActivity;
 import org.sxymi.androidbasics.classes.Functions;
@@ -37,6 +38,8 @@ public class ListActivity extends BaseActivity {
         this.addItem(R.string.label_activity_intents, IntentsActivity.class);
         this.addItem(R.string.label_activity_sqlite, SQLiteActivity.class);
         this.addItem(R.string.label_activity_file, FileActivity.class);
+        //this.addItem(R.string.label_activity_maps, MapsActivity.class);
+        this.addItem(R.string.label_activity_picture, PictureActivity.class);
     }
 
     private void initializeAdapter() {
