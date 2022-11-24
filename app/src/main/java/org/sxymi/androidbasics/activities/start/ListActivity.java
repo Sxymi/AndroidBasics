@@ -10,6 +10,7 @@ import org.sxymi.androidbasics.activities.BaseActivity;
 import org.sxymi.androidbasics.activities.list.FileActivity;
 import org.sxymi.androidbasics.activities.list.FragmentsActivity;
 import org.sxymi.androidbasics.activities.list.IntentsActivity;
+import org.sxymi.androidbasics.activities.list.MultimediaActivity;
 import org.sxymi.androidbasics.activities.list.NotificationsActivity;
 import org.sxymi.androidbasics.activities.list.PictureActivity;
 import org.sxymi.androidbasics.activities.list.SQLiteActivity;
@@ -40,6 +41,7 @@ public class ListActivity extends BaseActivity {
         this.addItem(R.string.label_activity_file, FileActivity.class);
         //this.addItem(R.string.label_activity_maps, MapsActivity.class);
         this.addItem(R.string.label_activity_picture, PictureActivity.class);
+        this.addItem(R.string.label_activity_multimedia, MultimediaActivity.class);
     }
 
     private void initializeAdapter() {

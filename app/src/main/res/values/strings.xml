@@ -12,6 +12,15 @@
     <string name="label_activity_file">File</string>
     <string name="label_activity_maps">Maps</string>
     <string name="label_activity_picture">Picture</string>
+    <string name="label_activity_multimedia">Multimedia</string>
+
+    <!-- Errors -->
+    <string name="error_empty_edit_text">Input is empty</string>
+    <string name="error_database_success">Status: Success</string>
+    <string name="error_database_failure">Status: Failure</string>
+    <string name="error_file_not_created">File not created</string>
+    <string name="error_file_read">File read error</string>
+    <string name="error_file_write">File write error</string>
 
     <!-- Start -->
     <string name="start_button_list">Activity list</string>
@@ -72,11 +81,9 @@
     <string name="picture_text_view_layout_relative">RelativeLayout</string>
     <string name="picture_text_view_layout_constraint">ConstraintLayout</string>
 
-    <!-- Errors -->
-    <string name="error_empty_edit_text">Input is empty</string>
-    <string name="error_database_success">Status: Success</string>
-    <string name="error_database_failure">Status: Failure</string>
-    <string name="error_file_not_created">File not created</string>
-    <string name="error_file_read">File read error</string>
-    <string name="error_file_write">File write error</string>
+    <!-- Multimedia -->
+    <string name="multimedia_button_music_on">Start</string>
+    <string name="multimedia_button_music_off">Stop</string>
+    <string name="multimedia_text_view_music_label">Music</string>
+    <string name="multimedia_text_view_video_label">Video</string>
 </resources>
