@@ -3,11 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.start.ListActivity">
+    tools:context=".activities.list.SQLiteActivity">
 
     <ListView
-        android:id="@+id/list_list"
+        android:id="@+id/sqlite_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </RelativeLayout>

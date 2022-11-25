@@ -88,6 +88,91 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".activities.list.SQLiteActivity"
+            android:exported="false"
+            android:label="@string/label_activity_sqlite"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.deep.SQLiteItemActivity"
+            android:exported="false"
+            android:label="@string/label_activity_sqlite"
+            android:parentActivityName=".activities.list.SQLiteActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.FileActivity"
+            android:exported="false"
+            android:label="@string/label_activity_file"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <!-- To use this activity define MAPS_API_KEY in local.properties -->
+        <!--
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+
+        <activity
+            android:name=".activities.list.MapsActivity"
+            android:exported="false"
+            android:label="@string/label_activity_maps" />
+       -->
+        <activity
+            android:name=".activities.list.PictureActivity"
+            android:exported="false"
+            android:label="@string/label_activity_picture"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.MultimediaActivity"
+            android:exported="false"
+            android:label="@string/label_activity_multimedia"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.CanvasActivity"
+            android:exported="false"
+            android:label="@string/label_activity_canvas"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.LogcatActivity"
+            android:exported="false"
+            android:label="@string/label_activity_logcat"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.LifeCycleActivity"
+            android:exported="false"
+            android:label="@string/label_activity_lifecycle"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>

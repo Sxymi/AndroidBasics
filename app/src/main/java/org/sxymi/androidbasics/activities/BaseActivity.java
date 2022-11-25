@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class BaseActivity extends AppCompatActivity {
+    public static final String BASE_KEY = "base";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,8 +15,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         this.handleControls();
 
         Bundle bundle = this.getIntent().getExtras();
-        if (bundle != null && !bundle.isEmpty()) {
-            this.readBundle(bundle);
+        if (bundle != null && !bundle.isEmpty() && bundle.containsKey(BASE_KEY)) {
+            this.readBundle(bundle.getBundle(BASE_KEY));
         }
     }
 

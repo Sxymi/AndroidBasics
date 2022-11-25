@@ -14,7 +14,7 @@ import org.sxymi.androidbasics.fragments.FirstFragment;
 import org.sxymi.androidbasics.fragments.SecondFragment;
 
 public class FragmentsActivity extends BaseActivity {
-    public final static String KEY = "argument";
+    public final static String KEY = "fragments";
     private Button buttonFirst, buttonSecond;
     private BaseFragment currentFragment;
 

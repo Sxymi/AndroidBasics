@@ -7,9 +7,16 @@ import android.widget.ListView;
 
 import org.sxymi.androidbasics.R;
 import org.sxymi.androidbasics.activities.BaseActivity;
+import org.sxymi.androidbasics.activities.list.CanvasActivity;
+import org.sxymi.androidbasics.activities.list.FileActivity;
 import org.sxymi.androidbasics.activities.list.FragmentsActivity;
 import org.sxymi.androidbasics.activities.list.IntentsActivity;
+import org.sxymi.androidbasics.activities.list.LifeCycleActivity;
+import org.sxymi.androidbasics.activities.list.LogcatActivity;
+import org.sxymi.androidbasics.activities.list.MultimediaActivity;
 import org.sxymi.androidbasics.activities.list.NotificationsActivity;
+import org.sxymi.androidbasics.activities.list.PictureActivity;
+import org.sxymi.androidbasics.activities.list.SQLiteActivity;
 import org.sxymi.androidbasics.activities.list.WidgetsActivity;
 import org.sxymi.androidbasics.classes.Functions;
 import org.sxymi.androidbasics.classes.list.ListItem;
@@ -33,6 +40,14 @@ public class ListActivity extends BaseActivity {
         this.addItem(R.string.label_activity_widgets, WidgetsActivity.class);
         this.addItem(R.string.label_activity_fragments, FragmentsActivity.class);
         this.addItem(R.string.label_activity_intents, IntentsActivity.class);
+        this.addItem(R.string.label_activity_sqlite, SQLiteActivity.class);
+        this.addItem(R.string.label_activity_file, FileActivity.class);
+        //this.addItem(R.string.label_activity_maps, MapsActivity.class);
+        this.addItem(R.string.label_activity_picture, PictureActivity.class);
+        this.addItem(R.string.label_activity_multimedia, MultimediaActivity.class);
+        this.addItem(R.string.label_activity_canvas, CanvasActivity.class);
+        this.addItem(R.string.label_activity_logcat, LogcatActivity.class);
+        this.addItem(R.string.label_activity_lifecycle, LifeCycleActivity.class);
     }
 
     private void initializeAdapter() {
@@ -54,7 +69,7 @@ public class ListActivity extends BaseActivity {
 
     @Override
     protected void initializeControls() {
-        this.list = this.findViewById(R.id.list_activities);
+        this.list = this.findViewById(R.id.list_list);
     }
 
     @Override

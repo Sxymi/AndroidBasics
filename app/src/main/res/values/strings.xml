@@ -8,6 +8,22 @@
     <string name="label_activity_widgets">Widgets</string>
     <string name="label_activity_fragments">Fragments</string>
     <string name="label_activity_intents">Intents</string>
+    <string name="label_activity_sqlite">SQLite</string>
+    <string name="label_activity_file">File</string>
+    <string name="label_activity_maps">Maps</string>
+    <string name="label_activity_picture">Picture</string>
+    <string name="label_activity_multimedia">Multimedia</string>
+    <string name="label_activity_canvas">Canvas</string>
+    <string name="label_activity_logcat">Logcat</string>
+    <string name="label_activity_lifecycle">Life cycle</string>
+
+    <!-- Errors -->
+    <string name="error_empty_edit_text">Input is empty</string>
+    <string name="error_database_success">Status: Success</string>
+    <string name="error_database_failure">Status: Failure</string>
+    <string name="error_file_not_created">File not created</string>
+    <string name="error_file_read">File read error</string>
+    <string name="error_file_write">File write error</string>
 
     <!-- Start -->
     <string name="start_button_list">Activity list</string>
@@ -31,8 +47,8 @@
     <string name="widgets_button_on">Enable progress</string>
     <string name="widgets_button_off">Disable progress</string>
     <string name="widgets_checkbox">Change TextView below</string>
-    <string name="widgets_textview_on">Selected</string>
-    <string name="widgets_textview_off">Not selected</string>
+    <string name="widgets_text_view_on">Selected</string>
+    <string name="widgets_text_view_off">Not selected</string>
     <string name="widgets_radio_first">First option</string>
     <string name="widgets_radio_second">Second option</string>
     <string name="widgets_edittext">Select radio above</string>
@@ -49,6 +65,37 @@
     <string name="intents_second_text_view">Second intent</string>
     <string name="intents_second_button">Back</string>
 
-    <!-- Errors -->
-    <string name="error_empty_edit_text">Input is empty</string>
+    <!-- SQLite -->
+    <string name="sqlite_menu_delete_all">Delete all</string>
+    <string name="sqlite_menu_add">Add</string>
+    <string name="sqlite_item_edit_text_name">Name</string>
+    <string name="sqlite_item_edit_text_value">Value</string>
+    <string name="sqlite_item_button_insert">Insert</string>
+    <string name="sqlite_item_button_update">Update</string>
+    <string name="sqlite_item_button_delete">Delete</string>
+
+    <!-- File -->
+    <string name="file_button_edit">Edit</string>
+    <string name="file_button_save">Save</string>
+    <string name="file_edit_text_is_empty">File is empty</string>
+
+    <!-- Picture -->
+    <string name="picture_button">Open gallery</string>
+    <string name="picture_text_view_layout_relative">RelativeLayout</string>
+    <string name="picture_text_view_layout_constraint">ConstraintLayout</string>
+
+    <!-- Multimedia -->
+    <string name="multimedia_button_music_on">Start</string>
+    <string name="multimedia_button_music_off">Stop</string>
+    <string name="multimedia_text_view_music_label">Music</string>
+    <string name="multimedia_text_view_video_label">Video</string>
+
+    <!-- Logcat -->
+    <string name="logcat_log">Log</string>
+    <string name="logcat_button_verbose">Verbose</string>
+    <string name="logcat_button_debug">Debug</string>
+    <string name="logcat_button_information">Information</string>
+    <string name="logcat_button_warning">Warning</string>
+    <string name="logcat_button_error">Error</string>
+    <string name="logcat_button_assert">Assert</string>
 </resources>

@@ -1,6 +1,5 @@
 package org.sxymi.androidbasics.activities.list;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,7 +10,7 @@ import org.sxymi.androidbasics.activities.deep.IntentsSecondActivity;
 import org.sxymi.androidbasics.classes.Functions;
 
 public class IntentsActivity extends BaseActivity {
-    public static final String KEY = "argument";
+    public static final String KEY = "intents";
     private Button button;
     private EditText editText;
 
@@ -34,9 +33,9 @@ public class IntentsActivity extends BaseActivity {
                 return;
             }
 
-            Intent intent = new Intent(this, IntentsSecondActivity.class);
-            intent.putExtra(IntentsActivity.KEY, this.editText.getText().toString());
-            this.startActivity(intent);
+            Bundle bundle = new Bundle();
+            bundle.putString(IntentsActivity.KEY, this.editText.getText().toString());
+            Functions.goToActivity(this, IntentsSecondActivity.class, bundle);
         });
     }
 
