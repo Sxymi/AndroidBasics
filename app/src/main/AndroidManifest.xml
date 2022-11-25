@@ -146,6 +146,33 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".activities.list.CanvasActivity"
+            android:exported="false"
+            android:label="@string/label_activity_canvas"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.LogcatActivity"
+            android:exported="false"
+            android:label="@string/label_activity_logcat"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.list.LifeCycleActivity"
+            android:exported="false"
+            android:label="@string/label_activity_lifecycle"
+            android:parentActivityName=".activities.start.ListActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>

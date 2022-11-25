@@ -13,6 +13,9 @@
     <string name="label_activity_maps">Maps</string>
     <string name="label_activity_picture">Picture</string>
     <string name="label_activity_multimedia">Multimedia</string>
+    <string name="label_activity_canvas">Canvas</string>
+    <string name="label_activity_logcat">Logcat</string>
+    <string name="label_activity_lifecycle">Life cycle</string>
 
     <!-- Errors -->
     <string name="error_empty_edit_text">Input is empty</string>
@@ -86,4 +89,13 @@
     <string name="multimedia_button_music_off">Stop</string>
     <string name="multimedia_text_view_music_label">Music</string>
     <string name="multimedia_text_view_video_label">Video</string>
+
+    <!-- Logcat -->
+    <string name="logcat_log">Log</string>
+    <string name="logcat_button_verbose">Verbose</string>
+    <string name="logcat_button_debug">Debug</string>
+    <string name="logcat_button_information">Information</string>
+    <string name="logcat_button_warning">Warning</string>
+    <string name="logcat_button_error">Error</string>
+    <string name="logcat_button_assert">Assert</string>
 </resources>

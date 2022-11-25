@@ -7,9 +7,12 @@ import android.widget.ListView;
 
 import org.sxymi.androidbasics.R;
 import org.sxymi.androidbasics.activities.BaseActivity;
+import org.sxymi.androidbasics.activities.list.CanvasActivity;
 import org.sxymi.androidbasics.activities.list.FileActivity;
 import org.sxymi.androidbasics.activities.list.FragmentsActivity;
 import org.sxymi.androidbasics.activities.list.IntentsActivity;
+import org.sxymi.androidbasics.activities.list.LifeCycleActivity;
+import org.sxymi.androidbasics.activities.list.LogcatActivity;
 import org.sxymi.androidbasics.activities.list.MultimediaActivity;
 import org.sxymi.androidbasics.activities.list.NotificationsActivity;
 import org.sxymi.androidbasics.activities.list.PictureActivity;
@@ -42,6 +45,9 @@ public class ListActivity extends BaseActivity {
         //this.addItem(R.string.label_activity_maps, MapsActivity.class);
         this.addItem(R.string.label_activity_picture, PictureActivity.class);
         this.addItem(R.string.label_activity_multimedia, MultimediaActivity.class);
+        this.addItem(R.string.label_activity_canvas, CanvasActivity.class);
+        this.addItem(R.string.label_activity_logcat, LogcatActivity.class);
+        this.addItem(R.string.label_activity_lifecycle, LifeCycleActivity.class);
     }
 
     private void initializeAdapter() {

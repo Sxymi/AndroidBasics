@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <Button
+            android:id="@+id/logcat_button_verbose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/logcat_button_verbose" />
+
+        <Button
+            android:id="@+id/logcat_button_debug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logcat_button_verbose"
+            android:text="@string/logcat_button_debug" />
+
+        <Button
+            android:id="@+id/logcat_button_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logcat_button_debug"
+            android:text="@string/logcat_button_information" />
+
+        <Button
+            android:id="@+id/logcat_button_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logcat_button_information"
+            android:text="@string/logcat_button_warning" />
+
+        <Button
+            android:id="@+id/logcat_button_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logcat_button_warning"
+            android:text="@string/logcat_button_error" />
+
+        <Button
+            android:id="@+id/logcat_button_assert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logcat_button_error"
+            android:text="@string/logcat_button_assert" />
+    </RelativeLayout>
+</RelativeLayout>

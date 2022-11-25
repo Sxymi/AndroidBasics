@@ -20,15 +20,6 @@ public class PictureActivity extends BaseActivity {
     private Uri uri;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        if (this.uri != null) {
-            this.image.setImageURI(this.uri);
-        }
-    }
-
-    @Override
     protected int getLayout() {
         return R.layout.activity_picture;
     }
@@ -59,7 +50,9 @@ public class PictureActivity extends BaseActivity {
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        this.uri = savedInstanceState.getParcelable(KEY, Uri.class);
-        this.image.setImageURI(this.uri);
+        if (savedInstanceState.containsKey(KEY)) {
+            this.uri = savedInstanceState.getParcelable(KEY, Uri.class);
+            this.image.setImageURI(this.uri);
+        }
     }
 }
