@@ -80,7 +80,7 @@
     <string name="file_edit_text_is_empty">Plik jest pusty</string>
 
     <!-- Picture -->
-    <string name="picture_button">Otwórz galerię</string>
+    <string name="picture_button">Wybierz</string>
     <string name="picture_text_view_layout_relative">RelativeLayout</string>
     <string name="picture_text_view_layout_constraint">ConstraintLayout</string>
 
