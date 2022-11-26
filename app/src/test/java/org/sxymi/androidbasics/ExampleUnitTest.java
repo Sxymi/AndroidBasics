@@ -1,8 +1,7 @@
 package org.sxymi.androidbasics;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.sxymi.androidbasics.classes.Functions;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -11,7 +10,12 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void checkGoToActivityWithNull() {
+        Functions.goToActivity(null, null);
+    }
+
+    @Test
+    public void checKIsEditTextEmptyWithNull() {
+        Functions.isEditTextEmpty(null);
     }
 }

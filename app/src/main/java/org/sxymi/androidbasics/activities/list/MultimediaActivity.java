@@ -39,10 +39,10 @@ public class MultimediaActivity extends BaseActivity {
         this.button.setOnClickListener(view -> {
             if (!this.mediaPlayer.isPlaying()) {
                 this.mediaPlayer.start();
-                this.button.setText(R.string.multimedia_button_music_off);
+                this.button.setText(R.string.multimedia_button_audio_off);
             } else {
                 this.mediaPlayer.pause();
-                this.button.setText(R.string.multimedia_button_music_on);
+                this.button.setText(R.string.multimedia_button_audio_on);
             }
         });
     }
@@ -50,7 +50,7 @@ public class MultimediaActivity extends BaseActivity {
     private void initializeAudioPlayer() {
         this.mediaPlayer = MediaPlayer.create(this, R.raw.audio_example);
         this.mediaPlayer.setOnCompletionListener(listener -> {
-            this.button.setText(R.string.multimedia_button_music_on);
+            this.button.setText(R.string.multimedia_button_audio_on);
         });
     }
 
