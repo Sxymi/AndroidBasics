@@ -85,9 +85,9 @@
     <string name="picture_text_view_layout_constraint">ConstraintLayout</string>
 
     <!-- Multimedia -->
-    <string name="multimedia_button_music_on">Start</string>
-    <string name="multimedia_button_music_off">Stop</string>
-    <string name="multimedia_text_view_music_label">Music</string>
+    <string name="multimedia_button_audio_on">Start</string>
+    <string name="multimedia_button_audio_off">Stop</string>
+    <string name="multimedia_text_view_audio_label">Audio</string>
     <string name="multimedia_text_view_video_label">Video</string>
 
     <!-- Logcat -->

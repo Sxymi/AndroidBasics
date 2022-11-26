@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">AndroidBasics</string>
+
+    <!-- Activities -->
+    <string name="label_activity_list">Lista aktywności</string>
+    <string name="label_activity_about">O aplikacji</string>
+    <string name="label_activity_notifications">Powiadomienia</string>
+    <string name="label_activity_widgets">Kontrolki</string>
+    <string name="label_activity_fragments">Fragmenty</string>
+    <string name="label_activity_intents">Intencje</string>
+    <string name="label_activity_sqlite">SQLite</string>
+    <string name="label_activity_file">Plik</string>
+    <string name="label_activity_maps">Mapy</string>
+    <string name="label_activity_picture">Zdjęcie</string>
+    <string name="label_activity_multimedia">Multimedia</string>
+    <string name="label_activity_canvas">Canvas</string>
+    <string name="label_activity_logcat">Logcat</string>
+    <string name="label_activity_lifecycle">Cykl życia</string>
+
+    <!-- Errors -->
+    <string name="error_empty_edit_text">Pole jest puste</string>
+    <string name="error_database_success">Status: Sukces</string>
+    <string name="error_database_failure">Status: Niepowodzenie</string>
+    <string name="error_file_not_created">Plik nie utworzony</string>
+    <string name="error_file_read">Błąd przy odczycie pliku</string>
+    <string name="error_file_write">Błąd przy zapisie pliku</string>
+
+    <!-- Start -->
+    <string name="start_button_list">Lista aktywności</string>
+    <string name="start_button_about">O aplikacji</string>
+    <string name="start_button_exit">Wyjście</string>
+
+    <!-- About -->
+    <string name="about_text_description_label">Opis</string>
+    <string name="about_text_description_value">Aplikacja pokazująca podstawowe funkcjonalności aplikacji Android</string>
+    <string name="about_text_author_label">Autor</string>
+    <string name="about_text_author_value">Szymon Chorągwicki</string>
+
+    <!-- Notifications -->
+    <string name="notifications_button_toast">Toast</string>
+    <string name="notifications_button_notification">Notification</string>
+    <string name="notifications_example_toast_content">Toast zawartość</string>
+    <string name="notifications_example_notification_title">Notification tytuł</string>
+    <string name="notifications_example_notification_content">Notification zawartość</string>
+
+    <!-- Widgets -->
+    <string name="widgets_button_on">Włącz postęp</string>
+    <string name="widgets_button_off">Wyłącz postęp</string>
+    <string name="widgets_checkbox">Zmień TextView poniżej</string>
+    <string name="widgets_text_view_on">Wybrany</string>
+    <string name="widgets_text_view_off">Niewybrany</string>
+    <string name="widgets_radio_first">Pierwsza opcja</string>
+    <string name="widgets_radio_second">Druga opcja</string>
+    <string name="widgets_edittext">Wybierz opcję powyżej</string>
+
+    <!-- Fragments -->
+    <string name="fragments_button_first_fragment">Pierwszy</string>
+    <string name="fragments_button_second_fragment">Drugi</string>
+    <string name="first_fragment_text_view">Pierwszy fragment</string>
+    <string name="second_fragment_text_view">Drugi fragment</string>
+
+    <!-- Intents -->
+    <string name="intents_text_view">Pierwsza intencja</string>
+    <string name="intents_button">Wyślij</string>
+    <string name="intents_second_text_view">Druga intencja</string>
+    <string name="intents_second_button">Powrót</string>
+
+    <!-- SQLite -->
+    <string name="sqlite_menu_delete_all">Usuń wszystkie</string>
+    <string name="sqlite_menu_add">Dodaj</string>
+    <string name="sqlite_item_edit_text_name">Nazwa</string>
+    <string name="sqlite_item_edit_text_value">Wartość</string>
+    <string name="sqlite_item_button_insert">Dodaj</string>
+    <string name="sqlite_item_button_update">Zaaktualizuj</string>
+    <string name="sqlite_item_button_delete">Usuń</string>
+
+    <!-- File -->
+    <string name="file_button_edit">Edytuj</string>
+    <string name="file_button_save">Zapisz</string>
+    <string name="file_edit_text_is_empty">Plik jest pusty</string>
+
+    <!-- Picture -->
+    <string name="picture_button">Otwórz galerię</string>
+    <string name="picture_text_view_layout_relative">RelativeLayout</string>
+    <string name="picture_text_view_layout_constraint">ConstraintLayout</string>
+
+    <!-- Multimedia -->
+    <string name="multimedia_button_audio_on">Start</string>
+    <string name="multimedia_button_audio_off">Stop</string>
+    <string name="multimedia_text_view_audio_label">Audio</string>
+    <string name="multimedia_text_view_video_label">Wideo</string>
+
+    <!-- Logcat -->
+    <string name="logcat_log">Log</string>
+    <string name="logcat_button_verbose">Verbose</string>
+    <string name="logcat_button_debug">Debug</string>
+    <string name="logcat_button_information">Information</string>
+    <string name="logcat_button_warning">Warning</string>
+    <string name="logcat_button_error">Error</string>
+    <string name="logcat_button_assert">Assert</string>
+</resources>
